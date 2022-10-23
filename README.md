@@ -12,3 +12,18 @@
 - 링(2차원): `RingGeometry(내부 반지름, 외부 반지름, 가장자리 둘레 분할 개수, 둘레 내부 분할개수, 시작각, 연장각)`
 - 사각형(2차원): `PlaneGeometry(너비 길이, 높이 길이, 너비 방향 분할 개수, 높이 방향 개수)`
 - 링(3차원): `TorusGeometry(반지름, 원통의 반지름, 방사 방향 분할 수, 원통의 분할 수, 연장 각 길이)` => 시작값이 없다.
+
+2. Mesh
+   Mesh는 객체를 3D를 출력하는 클레스이며 Object 3D의 파생요소이다. 구성요소로 Geometry와 Material가 있다.
+
+- Geometry: 형상, 형태 정의
+- Material: 투명도, 색상 정의
+- Object 3D
+  - 파생클레스
+  1. Mesh : 삼각형 면으로 구성된 객체
+  2. Line : 선형객체
+  3. Points : 점
+  - 구성요소
+  1. position: 위치
+  2. rotation: 회전
+  3. scale: 크기
